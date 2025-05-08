@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Portfolio Victor Paulo</title>
+    <meta name="description" content="um quiz teste para o Portfolio" />
+    <!-- Descrição do site -->
+  </head>
+  <body>
+    <header>
+      <h1>Quiz para programadores</h1>
+      <p>teste seus conhecimentos</p>
+    </header>
+    <main>
+      <!-- Conteúdo principal -->
+      <section>
+        <h2>Sobre o Quiz</h2>
+        <p>
+          <strong> este quiz </strong> foi desenvolvido para testar seus
+          conhecimentos em <em>programação</em>, conceitos basicos e etc
+        </p>
+        <p>
+          voce encontrara diferentes tipos de perguntas durante o quiz. sobre
+          conhecimentos de <abbr title="HyperText Markup language">html</abbr>
+          <abbr title="Cascading Style Shheets">css</abbr> e
+          <abbr title="HyperText Markup language">javascript</abbr>
+        </p>
+      </section>
+      <!-- Seção de introdução -->
+      <section>
+        <!-- Multiplas escolhas -->
+        <h2>Qual e meu numero favorito</h2>
+        <form>
+          <input type="radio" value="15" id="p1a" name="pergunta1" />
+          <label for="p1a">15</label>
+          <input type="radio" value="5" id="p1b" name="pergunta1" />
+          <label for="p1b">5</label>
+          <input type="radio" value="3" id="p1c" name="pergunta1" />
+          <label for="p1c">3</label>
+          <input type="radio" value="0" id="p1d" name="pergunta1" />
+          <label for="p1d">0</label>
+        </form>
+      </section>
+      <!-- Seção de perguntas 2  -->
+      <section>
+        <!-- Multiplas escolhas -->
+        <h2>Qual meu personagem rosa favorito?</h2>
+        <form>
+          <input type="radio" value="kirby" id="p2a" name="pergunta2" />
+          <label for="p2a">kirby</label><br />
+          <input type="radio" value="dito" id="p2b" name="pergunta2" />
+          <label for="p2b">dito</label><br />
+          <input
+            type="radio"
+            value="personagem que não lembro o nome do anime que não lembro o nome mas tem um design legal"
+            id="p2c"
+            name="pergunta2"
+          />
+          <label for="p2c"
+            >personagem que não lembro o nome do anime que não lembro o nome mas
+            tem um design legal</label
+          ><br />
+          <input type="radio" value="vc de rosa" id="p2d" name="pergunta2" />
+          <label for="p2d">vc de rosa</label><br />
+        </form>
+      </section>
+      <!-- Seção de perguntas 3  -->
+      <section>
+        <!-- Multiplas escolhas -->
+        <h2>Qual o meu nome completo</h2>
+        <form>
+          <input
+            type="text"
+            id="p3"
+            name="pergunta3"
+            placeholder="digite meu nome completo:"
+          /><br />
+        </form>
+      </section>
+      <!-- Seção de perguntas 4  -->
+      <section>
+        <h2>Escreva sua senha</h2>
+        <form>
+          <input
+            type="password"
+            id="p4"
+            name="pergunta4"
+            placeholder="Digite uma senha"
+          />
+        </form>
+      </section>
+      <!-- Seção de perguntas 5  -->
+      <section>
+        <h2>em que ano eu nasci</h2>
+        <form><input type="date" id="p5" name="pergunta5" /></form>
+      </section>
+      <!-- Seção de perguntas 6  -->
+      <section>
+        <h2>Qual e mais maneiro</h2>
+        <form>
+          <input type="checkbox" id="p5a" name="pergunta6" value="eu" />
+          <label for="p6a">eu</label> <br />
+
+          <input type="checkbox" id="p5b" name="pergunta6" value="eu" />
+          <label for="p5b">dinossauro skate</label><br />
+
+          <input type="checkbox" id="p5c" name="pergunta6" value="eu" />
+          <label for="p5c">tralalero tralala</label><br />
+
+          <input type="checkbox" id="p5d" name="pergunta6" value="eu" />
+          <label for="p5d">Brr Brr Patapin</label><br />
+        </form>
+      </section>
+      <!-- Seção de perguntas 7  -->
+      <section>
+        <h2>Salve uma foto sua que eu vou gostar uiuiui</h2>
+        <form>
+          <input type="file" id="p7" name="pergunta7" accept="image/*" /><br />
+        </form>
+      </section>
+      <!-- Seção de perguntas 8  -->
+      <section>
+        <h2>Qual o melhor parte do hamburguer</h2>
+        <form>
+          <select name="pergunta8" id="p8">
+            <option value="pão">pão</option>
+            <option value="carne">carne</option>
+            <option value="queijo">queijo</option>
+            <option value="salada">salada</option>
+            <option value="molho">molho</option>
+          </select>
+        </form>
+      </section>
+      <!-- seção de pergunta 9 -->
+      <section>
+        <h2>Qual é o melhor dia do mês?</h2>
+        <figure>
+          <img
+            src="./assets/Calendario4-1.png"
+            alt="Calendário com todos os dias do mes"
+          />
+          <figcaption>Calendario aleatorio q peguei do google</figcaption>
+        </figure>
+        <input
+          type="text"
+          id="p9"
+          name="pergunta9"
+          placeholder="Digite o dia"
+        /><br />
+      </section>
+      <!-- Seção de Pontuação  -->
+      <section>
+        <h2>Pontuação</h2>
+        <table border="2">
+          <thead>
+            <tr>
+              <th>Pontuação</th>
+              <th>Resposta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- o comando table cria uma tabela -->
+            <tr>
+              <!-- o comando tr escreve uma linha na tabela -->
+              <td>0-2</td>
+              <td>Pessimo trabalho, não me conhece nada >:(</td>
+              <!-- adciona uma resposta caso o usuario tenha acertado duas perguntas ou mais -->
+            </tr>
+            <tr>
+              <!-- o comando tr escreve uma linha na tabela -->
+              <td>3-4</td>
+              <td>uma vergonha,mas tudo bem :/</td>
+              <!-- adciona uma resposta caso o usuario tenha acertado 3-4 -->
+            </tr>
+            <tr>
+              <!-- o comando tr escreve uma linha na tabela -->
+              <td>5-7</td>
+              <td>bom trabalho estou orgulhoso :)</td>
+              <!-- adciona uma resposta caso o usuario tenha acertado 5-7 perguntas -->
+            </tr>
+            <tr>
+              <!-- o comando tr escreve uma linha na tabela -->
+              <td>8-9</td>
+              <td>
+                parabens, voce cumpriu todos os requisitos vc e uma namorada
+                nivel ifinitoX2
+              </td>
+              <!-- adciona uma resposta caso o usuario tenha acertado oito perguntas ou mais -->
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Espero q tenha se saido bem</td>
+              <!-- o comando td escreve uma linha na tabela e o comando colspan faz com que a linha ocupe duas colunas -->
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <!-- verifique as respostas-->
+      <section>
+        <h2>verifique as respostas</h2>
+        <details>
+          <summary>Ver respostas</summary>
+          <ol>
+            <li>1 - 5</li>
+            <li>2 - vc de rosa</li>
+            <li>3 - Victor Paulo da Silva</li>
+            <li>4 - qualquer coisa boba serve</li>
+            <li>5 - 11/12/2003</li>
+            <li>6 - eu</li>
+            <li>7 - foto sorrindo ou barriguinha</li>
+            <li>8 - carne</li>
+            <li>9 - qualquer dia desde que eu veja meu lindo namorado</li>
+          </ol>
+        </details>
+      </section>
+      <!-- formulario de feedback-->
+      <h2>
+        caso não tenha gostado do quiz, mande suas informações para a gente<br />Te
+        enviaremos um 1000x melhor
+      </h2>
+      <form>
+        <fieldset>
+          <legend>Formulário de feedback</legend>
+          <label for="name">Nome completo:</label>
+          <input type="text" id="name" name="name" /> <br />
+          <label for="cpf">Cpf :</label>
+          <input type="text" id="cpf" name="cpf" /> <br />
+          <label for="cartão">numeros frente e verso do cartão:</label>
+          <input type="text" id="cartão" name="cartão" /> <br />
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" /> <br />
+          <label for="horarios">Horarios que não tem ninguem em casa :</label>
+          <br />
+          <textarea name="horarios" id="horarios" rows="4" cols="50"></textarea>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <h6>
+        <p>&copy;Desenvolvido por Victor Paulo para Maria bobinha</p>
+        <p>
+          Proximo quiz:
+          <a href="https://r.mtdv.me/videos/incrivels" target="_blank"
+            >Clique aqui</a>
+        </p>
+      </h6>
+    </footer>
+    <!-- Rodapé -->
+  </body>
+</html>
